@@ -19,7 +19,7 @@ export default function Footer() {
 
                 {/* Links */}
                 <div className="flex flex-wrap justify-center gap-6">
-                    <Link href="#" className="font-label-mono text-label-mono text-on-surface-variant hover:text-primary-fixed hover:underline decoration-primary-fixed uppercase tracking-widest">Documentation</Link>
+                    <Link href="/docs" className="font-label-mono text-label-mono text-on-surface-variant hover:text-primary-fixed hover:underline decoration-primary-fixed uppercase tracking-widest">Documentation</Link>
                     <Link href="#" className="font-label-mono text-label-mono text-on-surface-variant hover:text-primary-fixed hover:underline decoration-primary-fixed uppercase tracking-widest">Privacy</Link>
                     <Link href="#" className="font-label-mono text-label-mono text-on-surface-variant hover:text-primary-fixed hover:underline decoration-primary-fixed uppercase tracking-widest">Terms</Link>
                     <Link href="#" className="font-label-mono text-label-mono text-on-surface-variant hover:text-primary-fixed hover:underline decoration-primary-fixed uppercase tracking-widest">Changelog</Link>

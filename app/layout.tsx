@@ -1,5 +1,6 @@
 import type { Metadata } from 'next';
 import { Anton, Hanken_Grotesk, JetBrains_Mono } from 'next/font/google';
+import AOSInit from '@/components/AOSInit';
 import './globals.css';
 
 const anton = Anton({
@@ -27,6 +28,7 @@ export default function RootLayout({children}: {children: React.ReactNode}) {
   return (
     <html lang="en" className={`dark ${anton.variable} ${hanken.variable} ${jetbrains.variable}`}>
       <body className="antialiased font-body-md bg-background text-on-background selection:bg-primary-fixed selection:text-on-primary-fixed" suppressHydrationWarning>
+        <AOSInit />
         {children}
       </body>
     </html>

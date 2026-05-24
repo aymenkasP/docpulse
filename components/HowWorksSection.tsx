@@ -5,12 +5,12 @@ export default function HowWorksSection() {
     return (
         <section id="how-it-works" className="section-dark py-section-gap border-t border-outline-variant/20">
             <div className="max-w-7xl mx-auto px-margin-mobile md:px-margin-desktop relative z-10">
-                <h2 className="font-display-lg text-display-lg uppercase leading-none text-primary mb-16 text-center">
+                <h2 data-aos="fade-up" className="font-display-lg text-display-lg uppercase leading-none text-primary mb-16 text-center">
                     From "This is broken" to <span className="text-primary-fixed">Fixed—in 3 seconds flat.</span>
                 </h2>
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-stretch">
                     {/* Column 1: The Old Way */}
-                    <div className="dev-card bg-surface-container-low/40 border-outline-variant/30 p-8 flex flex-col gap-6 chamfer-tl  grayscale">
+                    <div data-aos="fade-right" data-aos-delay="150" className="dev-card bg-surface-container-low/40 border-outline-variant/30 p-8 flex flex-col gap-6 chamfer-tl  grayscale">
                         <div className="flex justify-between items-start">
                             <h3 className="font-headline-md text-headline-md text-outline uppercase">The Old Way</h3>
                             <span className="font-label-mono text-[10px] text-outline px-2 py-1 border border-outline-variant/30 uppercase tracking-widest">The Friction Zone</span>
@@ -32,7 +32,7 @@ export default function HowWorksSection() {
                     </div>
 
                     {/* Column 2: The New Way */}
-                    <div className="dev-card bg-surface-container-low border-primary-fixed p-8 flex flex-col gap-6 chamfer-tl ring-1 ring-primary-fixed/20 shadow-[0_0_40px_rgba(178,212,0,0.1)]">
+                    <div data-aos="fade-left" data-aos-delay="300" className="dev-card bg-surface-container-low border-primary-fixed p-8 flex flex-col gap-6 chamfer-tl ring-1 ring-primary-fixed/20 shadow-[0_0_40px_rgba(178,212,0,0.1)]">
                         <div className="flex justify-between items-start">
                             <h3 className="font-headline-md text-headline-md text-primary uppercase">The New Way</h3>
                             <span className="font-label-mono text-[10px] bg-primary-fixed text-on-primary-fixed px-2 py-1 uppercase font-bold tracking-widest">The Flow State</span>
