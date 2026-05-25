@@ -5,7 +5,7 @@ import HowWorksSection from '../components/HowWorksSection';
 import FeaturesSection from '../components/FeaturesSection';
 import IntegrationsSection from '../components/IntegrationsSection';
 import PricingSection from '../components/PricingSection';
-import FinalCTA from '../components/FinalCTA';
+ import FinalCTA from '../components/FinalCTA';
 import Footer from '../components/Footer';
 
 export default function Home() {

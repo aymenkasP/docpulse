@@ -181,3 +181,7 @@
       clip-path: polygon(20px 0, 100% 0, 100% 100%, 0 100%, 0 20px);
   }
 }
+
+button {
+    cursor: pointer;
+}
