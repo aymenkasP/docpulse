@@ -18,13 +18,14 @@ export default function TopNavBar() {
                     <Link href="#features" className="text-on-surface-variant font-label-mono text-label-mono uppercase tracking-widest hover:text-primary-fixed transition-colors duration-200">Features</Link>
                     <Link href="#integrations" className="text-on-surface-variant font-label-mono text-label-mono uppercase tracking-widest hover:text-primary-fixed transition-colors duration-200">Integrations</Link>
                     <Link href="#pricing" className="text-on-surface-variant font-label-mono text-label-mono uppercase tracking-widest hover:text-primary-fixed transition-colors duration-200">Pricing</Link>
+
                 </div>
 
                 {/* Trailing Action */}
                 <div className="flex items-center gap-4">
-                    <Link href="#contact" className="dev-btn-secondary hidden sm:flex font-label-mono text-label-mono">
+                    <Link href="/dashboard" className="dev-btn-secondary hidden sm:flex font-label-mono text-label-mono">
                         <Terminal className="mr-2" size={16} />
-                        LET'S TALK
+                        Dashboard
                     </Link>
                     <button className="md:hidden text-primary">
                         <Menu size={24} />

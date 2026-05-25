@@ -32,6 +32,10 @@ export default function Signup() {
                             <Code2 size={18} />
                             Continue with GitHub
                         </button>
+                        <Link href="/dashboard" className="cursor-pointer dev-btn-secondary w-full justify-center flex items-center gap-3 bg-surface-container-low/50">
+                            <Code2 size={18} />
+                            Continue To Dashboard
+                        </Link>
 
                         <div className="relative flex items-center py-2">
                             <div className="flex-grow border-t border-outline-variant/30"></div>
