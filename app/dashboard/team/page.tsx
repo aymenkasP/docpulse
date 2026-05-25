@@ -1,8 +1,8 @@
 'use client'
 
 import React, { useState } from 'react'
-import DashboardTopBar from '../components/DashboardTopBar'
-import InviteMemberModal from '../components/InviteMemberModal'
+import DashboardTopBar from '../_components/DashboardTopBar'
+import InviteMemberModal from '../_components/InviteMemberModal'
 import { Plus } from 'lucide-react'
 import TeamTable from './_components/TeamTable'
 import RolesCard from './_components/RolesCard'

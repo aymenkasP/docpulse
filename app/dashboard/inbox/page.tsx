@@ -1,7 +1,7 @@
 'use client'
 
 import React, { useState } from 'react'
-import DashboardTopBar from '../components/DashboardTopBar'
+import DashboardTopBar from '../_components/DashboardTopBar'
 import { allFeedback, FilterTab, FeedbackItem } from './_components/data'
 import FeedbackList from './_components/FeedbackList'
 import FeedbackDetail from './_components/FeedbackDetail'

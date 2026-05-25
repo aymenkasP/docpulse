@@ -1,8 +1,8 @@
 'use client'
 
 import React from 'react'
-import DashboardSidebar from './components/DashboardSidebar'
-import { SidebarProvider, useSidebar } from './components/SidebarContext'
+import DashboardSidebar from './_components/DashboardSidebar'
+import { SidebarProvider, useSidebar } from './_components/SidebarContext'
 
 function DashboardShell({ children }: { children: React.ReactNode }) {
     const { open, setOpen } = useSidebar()

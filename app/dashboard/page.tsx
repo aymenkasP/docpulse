@@ -1,13 +1,13 @@
 'use client'
 
 import React from 'react'
-import DashboardTopBar from './components/DashboardTopBar'
-import StatsGrid from './components/StatsGrid'
-import WeeklyActivity from './components/WeeklyActivity'
-import HotPages from './components/HotPages'
-import RecentFeedback from './components/RecentFeedback'
-import QuickActions from './components/QuickActions'
-import IntegrationStatus from './components/IntegrationStatus'
+import DashboardTopBar from './_components/DashboardTopBar'
+import StatsGrid from './_components/StatsGrid'
+import WeeklyActivity from './_components/WeeklyActivity'
+import HotPages from './_components/HotPages'
+import RecentFeedback from './_components/RecentFeedback'
+import QuickActions from './_components/QuickActions'
+import IntegrationStatus from './_components/IntegrationStatus'
 
 export default function DashboardPage() {
     return (

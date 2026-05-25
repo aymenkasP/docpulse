@@ -2,7 +2,7 @@
 
 import React, { useState } from 'react'
 import { User, Bell, Key, Shield, Globe, Save } from 'lucide-react'
-import DashboardTopBar from '../components/DashboardTopBar'
+import DashboardTopBar from '../_components/DashboardTopBar'
 import ProfileTab from './_components/ProfileTab'
 import NotificationsTab from './_components/NotificationsTab'
 import APIKeysTab from './_components/APIKeysTab'
@@ -81,8 +81,8 @@ export default function SettingsPage() {
                                         key={tab.value}
                                         onClick={() => setActiveTab(tab.value)}
                                         className={`flex items-center gap-3 px-3 py-2.5 font-label-mono text-label-mono uppercase tracking-widest transition-colors whitespace-nowrap ${isActive
-                                                ? 'bg-primary-fixed/10 text-primary-fixed border-l-2 border-primary-fixed'
-                                                : 'text-on-surface-variant hover:text-primary-fixed hover:bg-primary-fixed/5 border-l-2 border-transparent'
+                                            ? 'bg-primary-fixed/10 text-primary-fixed border-l-2 border-primary-fixed'
+                                            : 'text-on-surface-variant hover:text-primary-fixed hover:bg-primary-fixed/5 border-l-2 border-transparent'
                                             }`}
                                     >
                                         <tab.icon size={14} />

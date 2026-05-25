@@ -2,7 +2,7 @@
 
 import React from 'react'
 import { Calendar } from 'lucide-react'
-import DashboardTopBar from '../components/DashboardTopBar'
+import DashboardTopBar from '../_components/DashboardTopBar'
 import FeedbackTrends from './_components/FeedbackTrends'
 import Sources from './_components/Sources'
 import ResponseDistribution from './_components/ResponseDistribution'

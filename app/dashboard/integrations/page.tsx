@@ -1,7 +1,7 @@
 'use client'
 
 import React from 'react'
-import DashboardTopBar from '../components/DashboardTopBar'
+import DashboardTopBar from '../_components/DashboardTopBar'
 import { Plus } from 'lucide-react'
 import { integrations } from './_components/data'
 import IntegrationCard from './_components/IntegrationCard'
