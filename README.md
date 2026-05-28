@@ -11,17 +11,17 @@ _A free and open-source template for your next big idea._
 
 Feel free to use and modify this template for your personal or commercial projects!
 
-## 🚀 Included Screens & UI
+## Included Screens & UI
 
 This template comes packed with a variety of pre-built, fully responsive screens:
 
-### 🌟 Public Pages
+### Public Pages
 
 - **Home / Landing Page (`/`)**: A modern, high-conversion landing page to introduce your product.
 - **Sign Up / Auth (`/signup`)**: Clean and accessible user registration flow.
 - **Documentation (`/docs`)**: A beautiful, easy-to-read documentation layout.
 
-### 📊 Dashboard Layout (`/dashboard`)
+### Dashboard Layout (`/dashboard`)
 
 A fully responsive administrative dashboard complete with sidebar navigation and various sub-pages:
 
@@ -32,7 +32,7 @@ A fully responsive administrative dashboard complete with sidebar navigation and
 - **Team (`/dashboard/team`)**: User role and team member management interface.
 - **Settings (`/dashboard/settings`)**: Profile, preferences, and application configuration screen.
 
-### 🎨 UI & Architecture
+### UI & Architecture
 
 - **Reusable Components**: Modular and reusable UI components located in `app/dashboard/components`.
 - **Responsive Design**: Flawless experience across mobile, tablet, and desktop devices.
