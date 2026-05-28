@@ -10,7 +10,6 @@ export default function HeroSection() {
             <div className="max-w-7xl mx-auto px-margin-mobile md:px-margin-desktop relative z-10 grid grid-cols-1 lg:grid-cols-12 gap-gutter items-center w-full">
                 <div className="lg:col-span-7 flex flex-col items-start gap-8">
                     <div data-aos="fade-down" data-aos-delay="0" className="inline-flex items-center gap-2 bg-primary-fixed/10 border border-primary-fixed/30 px-3 py-1 rounded-none font-label-mono text-label-mono text-primary-fixed uppercase tracking-widest">
-                        <span className="w-2 h-2 bg-primary-fixed animate-pulse"></span>
                         NEW: GitHub Integration
                     </div>
 
